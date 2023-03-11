@@ -1,0 +1,30 @@
+{
+    "name": "saltkit",
+    "description": "Saltkit Engine – extension host",
+
+    "copyright": "Copyright © 2023  Elias Batek",
+    "license": "BSL-1.0",
+
+    "authors": ["Elias Batek (0xEAB)"],
+
+    "targetPath": "bin",
+    "dflags": ["-preview=dip1000", "-preview=in"],
+
+    "dependencies": {
+        "asdf": "~>0.7.17",
+        "inilike": "~>1.2.2"
+    },
+
+    "configurations": [
+        {
+            "name": "application",
+            "targetType": "executable"
+        },
+        {
+            "name": "library",
+            "targetType": "library",
+            "excludedSourceFiles": ["source/app.d"]
+        }
+    ]
+}
+

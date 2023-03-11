@@ -1,0 +1,6 @@
+# DUB
+.dub
+/dub.selections.json
+
+# build
+/bin/*
