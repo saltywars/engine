@@ -4,3 +4,7 @@
 
 # build
 /bin/*
+!/bin/paths.ini.*
+!/bin/addons/
+/bin/addons/*
+!/bin/addons/.gitkeep

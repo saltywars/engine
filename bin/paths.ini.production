@@ -1,0 +1,4 @@
+[pathmap]
+core=./core
+distro=./vanilla
+addons=./addons
